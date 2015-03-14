@@ -23,19 +23,19 @@
 #-------------------------------------------------------------#
 
 
-if [ 1 -eq 0 ]; then    # This is never true, thus it acts as block comments ;)
+# if [ 1 -eq 0 ]; then    # This is never true, thus it acts as block comments ;)
 ### One liner - Grab the latest version and execute! ###########################
-wget -qO- https://raw.github.com/g0tmi1k/os-scripts/master/kali.sh | bash
+# wget -qO- https://raw.github.com/g0tmi1k/os-scripts/master/kali.sh | bash
 ## Shorten URL >>>  wget -qO- http://bit.do/postkali | bash  <<<
 #curl -s -L -k https://raw.github.com/g0tmi1k/kali-postinstall/master/kali_postinstall.sh | nohup bash
 ################################################################################
-fi
+# fi
 
 
 ##### Location information
 keyboardApple=false         # Using a Apple/Macintosh keyboard? Change to anything other than 'false' to enable
 keyboardlayout="gb"         # Great Britain
-timezone="Europe/London"    # London, Europe
+# timezone="Europe/London"    # London, Europe
 
 
 ##### (Optional) Enable debug mode?
